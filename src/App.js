@@ -28,9 +28,10 @@ class App extends Component {
           type="text" 
           onChange={this.textHandler} 
           placeholder="Enter text here."
+          value={this.state.text}
           />
         <p>Length of Text: {this.state.text.length}</p>
-        <ValidationComponent />
+        <ValidationComponent textLength={this.state.text.length} />
       </div>
     );
   }
