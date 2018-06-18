@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ValidationComponent from './ValidationComponent/ValidationComponent';
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
           placeholder="Enter text here."
           />
         <p>Length of Text: {this.state.text.length}</p>
+        <ValidationComponent />
       </div>
     );
   }
