@@ -6,14 +6,19 @@ import CharComponent from './CharComponent/CharComponent';
 class App extends Component {
 
   state = {
-    text: ''
+    input: ''
   }
   
-  textHandler = (event) => {
-    this.setState({text: event.target.value});
+  inputHandler = (event) => {
+    this.setState({input: event.target.value});
   }
 
   render() {
+  
+    const chars = this.state.input.split('').map(char => {
+      return <CharComponent character={char} />;
+    });
+
     return (
       <div className="App">
         <ol>
@@ -27,13 +32,13 @@ class App extends Component {
         <p>Hint: Keep in mind that JavaScript strings are basically arrays!</p>
         <input 
           type="text" 
-          onChange={this.textHandler} 
+          onChange={this.inputHandler} 
           placeholder="Enter text here."
-          value={this.state.text}
+          value={this.state.input}
           />
-        <p>Length of Text: {this.state.text.length}</p>
-        <ValidationComponent textLength={this.state.text.length} />
-        <CharComponent />
+        <p>Length of text: {this.state.input.length}</p>
+        <ValidationComponent inputLength={this.state.input.length} />
+        {chars}
       </div>
     );
   }

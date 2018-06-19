@@ -3,7 +3,9 @@ import './CharComponent.css';
 
 const charComponent = (props) => {
     return (
-        <div className="char"></div>
+        <div className="char">
+            <p>{props.character}</p>
+        </div>
     )
 }
 
