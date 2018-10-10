@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "deep-extend": "^0.6.0",
     "hoek": "^5.0.3",
+    "mime": "^2.3.1",
+    "randomatic": "^3.1.0",
     "react": "^16.0.0-rc.3",
     "react-dom": "^16.0.0-rc.3",
     "react-scripts": "1.0.13"
