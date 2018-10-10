@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cryptiles": "^4.1.2",
     "deep-extend": "^0.6.0",
     "hoek": "^5.0.3",
+    "lodash": "^4.17.11",
+    "macaddress": "^0.2.9",
     "mime": "^2.3.1",
     "randomatic": "^3.1.0",
     "react": "^16.0.0-rc.3",
     "react-dom": "^16.0.0-rc.3",
-    "react-scripts": "1.0.13"
+    "react-scripts": "^2.0.4",
+    "sshpk": "^1.14.2",
+    "url-parse": "^1.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
