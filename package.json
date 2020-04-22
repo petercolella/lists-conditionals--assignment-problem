@@ -17,7 +17,7 @@
     "react": "^16.8.6",
     "react-dev-utils": "^4.2.3",
     "react-dom": "^16.8.6",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^3.4.1",
     "sshpk": "^1.16.1",
     "url-parse": "^1.4.7"
   },
