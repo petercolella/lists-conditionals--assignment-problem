@@ -9,7 +9,7 @@
     "extend": "^3.0.2",
     "handlebars": "^4.3.0",
     "hoek": "^5.0.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "macaddress": "^0.2.9",
     "merge": "^1.2.1",
     "mime": "^2.4.4",
