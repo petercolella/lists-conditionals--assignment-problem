@@ -19,7 +19,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "^3.4.1",
     "sshpk": "^1.16.1",
-    "url-parse": "^1.4.7"
+    "url-parse": "^1.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
